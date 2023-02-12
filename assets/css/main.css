@@ -110,6 +110,78 @@ section {
 	display: block;
 }
 
+.CV {
+	transition: all 0.2s;
+	animation: wobble 1s ease-in-out infinite;
+}
+
+#nav {
+	transition: all 0.2s;
+	animation: wobble 1s ease-in-out infinite;
+}
+
+
+@keyframes wobble {
+	0% {
+		transform: translateX(0);
+	}
+
+	15% {
+		transform: translateX(-10px) rotate(-5deg);
+	}
+
+	30% {
+		transform: translateX(10px) rotate(5deg);
+	}
+
+	45% {
+		transform: translateX(-10px) rotate(-5deg);
+	}
+
+	60% {
+		transform: translateX(10px) rotate(5deg);
+	}
+
+	75% {
+		transform: translateX(-10px) rotate(-5deg);
+	}
+
+	100% {
+		transform: translateX(0);
+	}
+}
+
+@keyframes wobble-up {
+	0% {
+		transform: translateY(0);
+	}
+
+	15% {
+		transform: translateY(-10px);
+	}
+
+	30% {
+		transform: translateY(8px);
+	}
+
+	45% {
+		transform: translateY(-6px);
+	}
+
+	60% {
+		transform: translateY(4px);
+	}
+
+	75% {
+		transform: translateY(-2px);
+	}
+
+	100% {
+		transform: translateY(0);
+	}
+}
+
+
 
 .rukumunuButton {
 	text-align: center;
@@ -119,6 +191,12 @@ section {
 
 .rukumunuButton:hover {
 	animation: shake 0.5s infinite linear;
+}
+
+#headLine {
+	text-align: center;
+	transition: all 0.2s;
+	animation: shake-horizontal 6s infinite linear;
 }
 
 @keyframes shake {
@@ -132,6 +210,28 @@ section {
 
 	100% {
 		transform: translateY(0);
+	}
+}
+
+@keyframes shake-horizontal {
+	0% {
+		transform: translateX(0);
+	}
+
+	25% {
+		transform: translateX(-200px);
+	}
+
+	50% {
+		transform: translateX(0);
+	}
+
+	75% {
+		transform: translateX(200px);
+	}
+
+	100% {
+		transform: translateX(0);
 	}
 }
 
@@ -164,8 +264,22 @@ section {
 	}
 }
 
-#downArrow{
+#downArrow {
 	animation: shakeArrow 0.5s infinite linear;
+}
+
+#linkArrow {
+	animation: shakeArrow 0.5s infinite linear;
+}
+
+#wobbleIconEven {
+	transition: all 0.2s;
+	animation: wobble-up 1s ease-in-out infinite;
+}
+
+#wobbleIconOdd {
+	transition: all 0.2s;
+	animation: wobble 1s ease-in-out infinite;
 }
 
 @keyframes shakeArrow {
