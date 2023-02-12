@@ -113,6 +113,26 @@ section {
 
 .rukumunuButton {
 	text-align: center;
+	transition: all 0.2s;
+	animation: shake 0.5s infinite linear;
+}
+
+.rukumunuButton:hover {
+	animation: shake 0.5s infinite linear;
+}
+
+@keyframes shake {
+	0% {
+		transform: translateY(0);
+	}
+
+	50% {
+		transform: translateY(-10px);
+	}
+
+	100% {
+		transform: translateY(0);
+	}
 }
 
 .button {
