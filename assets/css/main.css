@@ -111,8 +111,7 @@ section {
 }
 
 .CV {
-	transition: all 0.2s;
-	animation: wobble 1s ease-in-out infinite;
+	animation: tada 1.5s infinite both;
 }
 
 #nav {
@@ -263,6 +262,60 @@ section {
 		transform: translateY(0);
 	}
 }
+
+.monologuesPara {
+	animation: fadeIn 1s ease-in both;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -10%, 0);
+	}
+
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+#intimateRose {
+	animation: tada 1.5s infinite both;
+}
+
+#myButton {
+	animation: tada 1.5s infinite both;
+}
+
+
+@keyframes tada {
+	0% {
+		transform: scale(1);
+	}
+
+	10%,
+	20% {
+		transform: scale(0.9) rotate(-3deg);
+	}
+
+	30%,
+	50%,
+	70%,
+	90% {
+		transform: scale(1.1) rotate(3deg);
+	}
+
+	40%,
+	60%,
+	80% {
+		transform: scale(1.1) rotate(-3deg);
+	}
+
+	100% {
+		transform: scale(1) rotate(0);
+	}
+}
+
 
 #downArrow {
 	animation: shakeArrow 0.5s infinite linear;
