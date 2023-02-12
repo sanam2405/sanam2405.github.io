@@ -137,7 +137,49 @@ section {
 
 .button {
 	position: absolute;
-	top: 50%
+	top: 50%;
+	animation: shaking 0.5s;
+	animation-iteration-count: 1;
+	animation-timing-function: linear;
+}
+
+#myMusic {
+	cursor: pointer;
+	animation: shake 0.5s infinite linear;
+	/* animation-iteration-count: 1; */
+	/* animation-timing-function: linear; */
+}
+
+@keyframes shaking {
+	0% {
+		transform: translateY(0);
+	}
+
+	50% {
+		transform: translateY(-10px);
+	}
+
+	100% {
+		transform: translateY(0);
+	}
+}
+
+#downArrow{
+	animation: shakeArrow 0.5s infinite linear;
+}
+
+@keyframes shakeArrow {
+	0% {
+		transform: translateY(0);
+	}
+
+	50% {
+		transform: translateY(-5px);
+	}
+
+	100% {
+		transform: translateY(0);
+	}
 }
 
 .rose-image {
