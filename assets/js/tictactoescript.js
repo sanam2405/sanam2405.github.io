@@ -53,7 +53,7 @@ function boxClicked(e) {
         }
         if(playCount===9){
             hasEnded = true
-            playerText.innerHTML = `The game is a draw!`
+            playerText.innerHTML = `DRAW!`
             restartBtn.classList.toggle("paused");
             return 
         }
