@@ -287,6 +287,10 @@ section {
 	animation: tada 1.5s infinite both;
 }
 
+#munuHeader {
+	animation: tada 1.5s infinite both;
+}
+
 
 @keyframes tada {
 	0% {
