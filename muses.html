@@ -16,14 +16,14 @@
 <head>
 
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RLY2TY4HCX"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-RLY2TY4HCX"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
 
-        gtag('config', 'G-RLY2TY4HCX');
-    </script>
+		gtag('config', 'G-RLY2TY4HCX');
+	</script>
 
     <title>Manas' Muses</title>
     <meta charset="utf-8" />
@@ -390,7 +390,7 @@
                         </p>
 
                         <h4 class="monologues"> "আমি আমার ক্যারিয়ার নষ্ট করতে চাইনা"
-                            <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+                            <i id="downArrow" class="fa fa-chevron-circle-down" aria-hidden="true"></i>
                         </h4>
 
 
@@ -442,7 +442,7 @@
                         </blockquote>
                         </p>
                         <h4 class="monologues"> "আমায় বাঁচতে দে, আমি ভালো নেই"
-                            <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+                            <i id="downArrow" class="fa fa-chevron-circle-down" aria-hidden="true"></i>
                         </h4>
 
                         <p align="justify">
@@ -503,7 +503,7 @@
                         </p>
 
                         <h4 class="monologues"> "তোমাদের মধ্যে অনেক অমিল"
-                            <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+                            <i id="downArrow" class="fa fa-chevron-circle-down" aria-hidden="true"></i>
                         </h4>
 
                         <p align="justify">
@@ -541,7 +541,7 @@
 
                         <h4 class="monologues"> "সব তো বদলে গেছে রে, এগুলো কি আদেও সম্ভব ?"
 
-                            <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+                            <i id="downArrow" class="fa fa-chevron-circle-down" aria-hidden="true"></i>
                         </h4>
 
                         <p align="justify">
@@ -584,7 +584,7 @@
 
                         <h4 class="monologues"> "তুই কোনোদিনই আমার মনের মতন হয়ে উঠতে পারবি না"
 
-                            <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+                            <i id="downArrow" class="fa fa-chevron-circle-down" aria-hidden="true"></i>
                         </h4>
 
                         <p align="justify">
@@ -636,7 +636,7 @@
 
                         <h4 class="monologues"> "তোর সাথে আমি কোনোদিন থাকতে পারবো না, আমি জানি"
 
-                            <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+                            <i id="downArrow" class="fa fa-chevron-circle-down" aria-hidden="true"></i>
                         </h4>
 
                         <p align="justify">
@@ -671,7 +671,7 @@
 
                         <h4 class="monologues"> "আমি আর কোনোদিন তোকে বিরক্ত করবো না, আর কোনোদিন তোর সাথে কথা বলতে চায়না"
 
-                            <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+                            <i id="downArrow" class="fa fa-chevron-circle-down" aria-hidden="true"></i>
                         </h4>
 
                         <p align="justify">
@@ -696,7 +696,7 @@
                             strong enough to shield myself”
 
 
-                            <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+                            <i id="downArrow" class="fa fa-chevron-circle-down" aria-hidden="true"></i>
                         </h5>
 
                         <p align="justify">
@@ -781,7 +781,8 @@
                             বলোনা যেন বিদায় <br>
                             <br>
 
-                            <button onclick="playAudioBondhu()"> <img src="images/play.png" alt="Manas Pratim Biswas">
+                            <button id="myMusic" onclick="playAudioBondhu()"> <img src="images/play.png"
+                                    alt="Manas Pratim Biswas">
                             </button>
                         </blockquote>
 
@@ -797,7 +798,6 @@
                         </div>
 
                         <p align="justify">
-
                             তুই বলেছিলি আমার চোখে তুই কোনোদিনও রূপসী হতে পারবি না। এই ধারণা যে কতটা ভুল আমি লিখে প্রমাণ
                             করতে পারবো না। বিশ্বাস কর আমার চোখে তুই সবচেয়ে সুন্দর মানুষী। মনে আছে, ক্লাস ৯ এ আমি তোকে
                             অঙ্ক করে দিতাম? এক-দুবার ফিজিক্স-কেমিস্ট্রি ও পড়িয়ে দিয়েছি। তোদের বাড়ির সামনের মাঠে সকাল
@@ -817,7 +817,8 @@
                             মনে আছে তুই আর প্রজ্ঞা একবার কম্পেটিশন করেছিলি যে কার বর ডিম ভাজবে? তোর জন্য অনেকটা সাহস
                             জুগিয়ে জীবনে প্রথমবার ডিম ভেজেছিলাম। দুজনে মিলে পাড়ার লাইব্রেরির কার্ড করেছিলাম। একসাথে বই
                             তুলতাম। একবার দুজনের কার্ড বদলাবদলি হয়ে গেছিলো, তোর নামে আমি বই তুলে ফেলেছিলাম। লাইব্রেরিয়ান
-                            বললেন - <i>"কি বা হবে, দুটো বই তো শেষমেশ সেই একই ঘরেই যাচ্ছে"</i>। সেবার তোর ঠোঁটের কোনে হাসিটা আজও
+                            বললেন - <i>"কি বা হবে, দুটো বই তো শেষমেশ সেই একই ঘরেই যাচ্ছে"</i>। সেবার তোর ঠোঁটের কোনে
+                            হাসিটা আজও
                             আমার স্পষ্ট ভাবে মনে আছে। তোকে আমার সাইকেলের ক্যারিয়ারে বসিয়ে কত্ত ঘুরেছি। একবার সাইকেলে
                             ঘুরতে ঘুরতে বৃষ্টি নেমে গেলো, দুজনে মিলে বৃষ্টিতে ভিজেছিলাম একসাথে। সন্ধ্যে বেলা কাটাতাম
                             ধোপাপুকুরের ধারে হাতে হাত রেখে আলোকপ্রদর্শনী দেখে। প্রথম প্রথম তুই শাড়ী পরে ভালো ভাবে হাঁটতে
@@ -837,7 +838,8 @@
                             চেয়েছিলি। একদিন দুজনে মিলে অনেক খুঁজে খুঁজে বের করেছিলাম দক্ষিণী। গান্ধী ঘাট গিয়ে জেটি করে
                             একসাথে প্রথমবার গঙ্গা পারাপার করে গেছিলাম দা ডেনমার্ক ট্যাভার্ন। সার্কুলার রেলওয়ে করে
                             প্রিন্সেপ ঘাট গিয়ে হাতে হাত ধরে একসাথে গঙ্গার ঘাট ধরে যে কত্ত হেঁটেছি তার ঠিকানা নেই। দূর্গা
-                            পুজোর আগে একসাথে প্রথমবার  কুমারটুলি গিয়ে ঠাকুরগড়া দেখেছিলাম। তারপরে গেছিলাম নিউ মার্কেট একসাথে কেনাকাটা
+                            পুজোর আগে একসাথে প্রথমবার কুমারটুলি গিয়ে ঠাকুরগড়া দেখেছিলাম। তারপরে গেছিলাম নিউ মার্কেট
+                            একসাথে কেনাকাটা
                             করতে। পুজোতে প্রথমবার রোয়ালের বিরিয়ানি আর মটন চাপ খেয়েছিলাম। সেবার একসাথে এত্ত হেঁটেছিলাম যে
                             শেষমেশ তোর পায়ে ফোঁসকা পরে ব্যান্ড এইড লাগাতে হলো। প্রথম লেকে গেছিলাম তোর হাত ধরে, প্রথম
                             বীফ, প্রথম পর্ক খেয়েছি তোর সাথে। জীবনের প্রথম চুম্বন, প্রথম নগ্নতা অনুভব করেছি তোর সাথে। না
@@ -989,7 +991,8 @@
 
                         </p>
 
-                        <button onclick="playAudioMayabi()"> <img src="images/play.png" alt="Manas Pratim Biswas">
+                        <button id="myMusic" onclick="playAudioMayabi()"> <img src="images/play.png"
+                                alt="Manas Pratim Biswas">
                         </button>
 
                         <br><br>
@@ -1041,7 +1044,8 @@
                             সারবে তুমি এলে। আসবে তো ? না এলে কিন্তু আড়ি, আড়ি, আড়ি।
 
                             <br><br>
-                            <button onclick="playAudioLetter()"> <img src="images/play.png" alt="Manas Pratim Biswas">
+                            <button id="myMusic" onclick="playAudioLetter()"> <img src="images/play.png"
+                                    alt="Manas Pratim Biswas">
                             </button>
                         </blockquote>
                         <p>
@@ -1394,7 +1398,8 @@
                         বলোনা যেন বিদায় <br>
                         <br>
 
-                        <button onclick="playAudioBondhu()"> <img src="images/play.png" alt="Manas Pratim Biswas">
+                        <button id="myMusic" onclick="playAudioBondhu()"> <img src="images/play.png"
+                                alt="Manas Pratim Biswas">
                         </button>
                     </blockquote>
 
@@ -1412,7 +1417,8 @@
 
                         <br>
 
-                        <button onclick="playAudioPiriti()"> <img src="images/play.png" alt="Manas Pratim Biswas">
+                        <button id="myMusic" onclick="playAudioPiriti()"> <img src="images/play.png"
+                                alt="Manas Pratim Biswas">
                         </button>
                     </blockquote>
 
@@ -1429,7 +1435,8 @@
 
                         <br>
 
-                        <button onclick="playAudioWaiting()"> <img src="images/play.png" alt="Manas Pratim Biswas">
+                        <button id="myMusic" onclick="playAudioWaiting()"> <img src="images/play.png"
+                                alt="Manas Pratim Biswas">
                         </button>
                     </blockquote>
 
@@ -1723,21 +1730,19 @@
                     playAudio();
                 }
             });
-
             // toggleVisibility();
             // playAudio();
 
         })
-
 
     </script>
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
     </script>
     <script type="text/javascript">
-            (function () {
-                emailjs.init("mYWy34atwAFh1Zjxv");
-            })();
+        (function () {
+            emailjs.init("mYWy34atwAFh1Zjxv");
+        })();
     </script>
 
 </body>
