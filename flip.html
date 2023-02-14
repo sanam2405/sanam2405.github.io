@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+
+    <!-- Google tag (gtag.js) -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-RLY2TY4HCX"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-RLY2TY4HCX');
+	</script> -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="description" content="I am Manas Pratim Biswas, a third-year undergraduate student in the Department of Information Technology,
+		Jadavpur University.">
+    <meta name="keyword" content="Manas Pratim Biswas, Munu, Information Technology, Jadavpur University, Portfolio">
+    <meta name="author" content="Manas Pratim Biswas">
+    <meta name="robot" content="index, follow">
+
+    <!--  Essential META Tags -->
+    <meta property="og:title" content="Manas' Portfolio">
+    <meta property="og:type" content="Manas Pratim Biswas" />
+    <meta property="og:image" content="https://www.manaspratimbiswas.com/images/banner.jpg">
+    <meta property="og:url" content="https://www.manaspratimbiswas.com/">
+    <meta name="twitter:card" content="Manas Pratim Biswas">
+
+    <!--  Non-Essential, But Recommended -->
+    <meta property="og:description" content="Manas Pratim Biswas">
+    <meta property="og:site_name" content="Manas Pratim Biswas">
+    <meta name="twitter:image:alt" content="Manas Pratim Biswas">
+
+    <!--  Non-Essential, But Required for Analytics -->
+    <meta property="fb:app_id" content="Manas Pratim Biswas" />
+    <meta name="twitter:site" content="Manas Pratim Biswas">
+    <link rel="canonical" href="https://www.manaspratimbiswas.com/">
+    <link rel="icon" type="image/x-icon" href="images/favi.ico">
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+  <meta charset="UTF-8">
+  <title>Manas' Memory Flip</title>
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="assets/css/flipstyles.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!--
+README!
+
+GAME INSRUCTIONS:
+
+p    - pause
+ESC  - abandon game
+
+Click the big P to choose one of three levels:
+- Casual
+- Medium
+- Hard
+
+The game will save your stats locally, via localStorage.
+Click the F to see your stats.
+
+Click I for these intructions.
+
+Flip is a timed card memory game. When starting a level, there's a red bar on top of the screen that shows how much time you have left.
+Click the green cards to see what symbol they uncover and try to find the matching symbol underneath the other cards.
+Uncover two matching symbols in a row to eliminate them from the game.
+Eliminate all cards as fast as you can to win the game. Have fun FLIPing!
+-->
+
+
+<div id="g"></div>
+	
+<div class="logo">
+  <p class="info">Click the P to get started.</p>
+  <div class="card left">
+    <div class="flipper">
+      <div class="f c1">F</div>
+      <div class="b contentbox">
+        <div class="padded">
+          <h2>Figures</h2>
+          Looks like you haven't FLIPped yet.
+          <a href="javascript:;" class="playnow">Play now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card active twist">
+    <div class="flipper">
+      <div class="b f">
+        <div class="c2">L</div>
+      </div>
+    </div>
+  </div>
+  <div class="card left">
+    <div class="flipper">
+      <div class="f c3">I</div>
+      <div class="b contentbox instructions">
+        <div class="padded">
+          <h2>Instructions</h2>
+          <p>Press [p] to pause, or [ESC] to abandon the game.</p>
+          <p>Flip is a timed card memory game. Click the green cards to see what symbol they uncover and try to find the matching symbol underneath the other cards.</p>
+          <p>Uncover two matching symbols at once to eliminate them from the game.</p>
+          <p>Eliminate all cards as fast as you can to win the game. Have fun FLIPing!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="flipper">
+      <div class="f c4">P</div>
+      <div class="b contentbox levels">
+        <a href="javascript:;" data-level="8" class="play">Casual</a>
+        <a href="javascript:;" data-level="18" class="play">Medium</a>
+        <a href="javascript:;" data-level="32" class="play">Hard</a>
+      </div>
+    </div>
+  </div>
+  <p class="info"> Made with Love by Munu</p>
+</div>
+
+<!-- partial -->
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="assets/js/flipscript.js"></script>
+
+</body>
+</html>
