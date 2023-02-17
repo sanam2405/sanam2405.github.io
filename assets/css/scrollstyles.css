@@ -1,0 +1,34 @@
+.hiddenScroll {
+    opacity: 0;
+    transition: all 2s;
+}
+
+.hiddenScrollTop {
+    opacity: 0;
+    transform: translateY(100%);
+    transition: all 2s;
+}
+
+.hiddenScrollDown {
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: all 2s;
+}
+
+.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.typingDemo {
+    width: 30ch;
+    animation: typing 2s steps(30), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
