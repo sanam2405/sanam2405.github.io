@@ -363,6 +363,8 @@ section {
 
 body {
 	line-height: 1;
+	width: 100%;
+	position: relative;
 }
 
 ol,
@@ -3858,9 +3860,17 @@ body.is-menu-visible #menu {
 	left: 0;
 	line-height: 3em;
 	position: fixed;
-	top: 0;
+	top: 2px;
 	width: 100%;
 	z-index: 10000;
+}
+
+
+@media screen and (min-width: 767px) {
+
+	#header {
+		top: 5px;
+	}
 }
 
 #header h1 {
@@ -3887,7 +3897,6 @@ body.is-menu-visible #menu {
 	#header h1 a {
 		font-size: 0.8em;
 	}
-
 }
 
 #header nav {
