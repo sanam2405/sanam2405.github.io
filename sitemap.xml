@@ -8,24 +8,54 @@
 
 
 <url>
-  <loc>https://www.manaspratimbiswas.com/</loc>
-  <lastmod>2023-01-25T13:52:54+00:00</lastmod>
+  <loc>https://manaspratimbiswas.com/</loc>
+  <lastmod>2023-02-18T14:54:16+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.manaspratimbiswas.com/index.html</loc>
-  <lastmod>2023-01-25T13:52:54+00:00</lastmod>
+  <loc>https://manaspratimbiswas.com/index.html</loc>
+  <lastmod>2023-02-18T14:54:16+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.manaspratimbiswas.com/muses.html</loc>
-  <lastmod>2023-01-25T13:52:54+00:00</lastmod>
+  <loc>https://manaspratimbiswas.com/muses.html</loc>
+  <lastmod>2023-02-18T14:54:16+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.manaspratimbiswas.com/photography.html</loc>
-  <lastmod>2023-01-25T13:52:54+00:00</lastmod>
+  <loc>https://manaspratimbiswas.com/photography.html</loc>
+  <lastmod>2023-02-18T14:54:16+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://manaspratimbiswas.com/games.html</loc>
+  <lastmod>2023-02-18T14:54:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://manaspratimbiswas.com/flip.html</loc>
+  <lastmod>2023-02-18T14:54:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://manaspratimbiswas.com/tictactoe.html</loc>
+  <lastmod>2023-02-18T14:54:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://manaspratimbiswas.com/tictactoeai.html</loc>
+  <lastmod>2023-02-18T14:54:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://manaspratimbiswas.com/simon.html</loc>
+  <lastmod>2023-02-18T14:54:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://manaspratimbiswas.com/boxit.html</loc>
+  <lastmod>2023-02-18T14:54:16+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
