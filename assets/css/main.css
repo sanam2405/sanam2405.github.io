@@ -4269,9 +4269,21 @@ body.is-preload #banner:after {
 	#main>header {
 		width: 100vw;
 		height: 35vh;
+		justify-content: center;
 	}
 	
 }
+
+
+@media screen and (min-width: 768px) {
+	#main>header {
+		width: 100vw;
+		height: 100vh;
+		justify-content: center;
+	}
+	
+}
+
 @media screen and (max-width: 1680px) {
 
 	#main>header {
