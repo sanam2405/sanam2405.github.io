@@ -110,6 +110,38 @@ section {
 	display: block;
 }
 
+.glowGolden {
+	transition: text-shadow 3s;
+  }
+
+.glowGolden:hover {
+	text-shadow: 0 0 10px #ffcc00, 0 0 20px #ffcc00, 0 0 30px #ffcc00, 0 0 40px #ffcc00, 0 0 50px #ffcc00, 0 0 60px #ffcc00, 0 0 70px #ffcc00;
+}
+
+
+.glowSaffron:hover {
+	text-shadow: 0 0 10px rgba(255, 136, 0, 0.8),
+		0 0 20px rgba(255, 136, 0, 0.8),
+		0 0 30px rgba(255, 136, 0, 0.8),
+		0 0 40px rgba(255, 136, 0, 0.8),
+		0 0 50px rgba(255, 136, 0, 0.8),
+		0 0 60px rgba(255, 136, 0, 0.8),
+		0 0 70px rgba(255, 136, 0, 0.8);
+}
+
+.glowTube:hover {
+	text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white, 0 0 40px white, 0 0 50px white, 0 0 60px white, 0 0 70px white;
+}
+
+.glowGreen:hover {
+	text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00, 0 0 50px #00ff00, 0 0 60px #00ff00, 0 0 70px #00ff00;
+}
+
+.glow:hover {
+	text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white, 0 0 40px white, 0 0 50px white, 0 0 60px white, 0 0 70px white;
+}
+
+
 .CV {
 	animation: tada 1.5s infinite both;
 }
@@ -4015,7 +4047,6 @@ body.is-menu-visible #menu {
 	transition: transform 0.5s ease, opacity 0.5s ease;
 	display: inline-block;
 	font-size: 1.75em;
-	opacity: 1;
 	padding: 0.35em 1em;
 	position: relative;
 	z-index: 1;
@@ -4271,7 +4302,7 @@ body.is-preload #banner:after {
 		height: 35vh;
 		justify-content: center;
 	}
-	
+
 }
 
 
@@ -4281,7 +4312,7 @@ body.is-preload #banner:after {
 		height: 100vh;
 		justify-content: center;
 	}
-	
+
 }
 
 @media screen and (max-width: 1680px) {
