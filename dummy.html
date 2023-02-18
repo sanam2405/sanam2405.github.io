@@ -14,6 +14,17 @@
 <html>
 
 <head>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RLY2TY4HCX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-RLY2TY4HCX');
+    </script>
+    
     <title>Manas' Muses</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -85,7 +96,7 @@
         <article id="main">
             <header id="banner">
                 <div class="inner">
-                    <h2>Muses</h2>
+                    <h2 class="glowGolden">Muses</h2>
                     <p>Some of my letters, poems and writings.</p>
                 </div>
             </header>
@@ -1663,7 +1674,7 @@
 
         <!-- Footer -->
         <footer id="footer">
-            <h3>Connect With Me</h3>
+            <h3 class="glowGolden">Connect With Me</h3>
             <br><br>
             <ul class="icons">
                 <!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li> -->
@@ -1905,7 +1916,7 @@
                         const template_id = 'template_qakaieeppi';
                         const user_id = 'mYWy34atwAFh1Zjxv';
 
-                        // emailjs.send(service_id, template_id, logData)
+                        emailjs.send(service_id, template_id, logData)
 
                         callback(1);
                     }
