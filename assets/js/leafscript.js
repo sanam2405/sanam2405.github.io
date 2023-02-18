@@ -338,11 +338,18 @@ floatingImages.push({
 function moveImages(currentTime) {
     floatingImages.forEach((image) => {
       const timeDelta = (currentTime - image.lastTime);
+      const smallScreen = window.matchMedia("(max-width: 767px)").matches;
       image.lastTime = currentTime;
   
       if (!image.isPaused) {
-        image.x += Math.sin(image.angle * Math.PI / 180) * timeDelta / 10;
-        image.y += Math.cos(image.angle * Math.PI / 180) * timeDelta / 10;
+
+        if(smallScreen){
+          image.x += Math.sin(image.angle * Math.PI / 180) * timeDelta / 35;
+          image.y += Math.cos(image.angle * Math.PI / 180) * timeDelta / 35; 
+        } else {
+          image.x += Math.sin(image.angle * Math.PI / 180) * timeDelta / 10;
+          image.y += Math.cos(image.angle * Math.PI / 180) * timeDelta / 10;
+        }
         image.angle += 0.1;
       }
   
