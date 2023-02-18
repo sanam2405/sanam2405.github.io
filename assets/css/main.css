@@ -4236,6 +4236,8 @@ body.is-preload #banner:after {
 
 #main>header {
 	padding: 20em 0 25em 0;
+	/* width: 100vw;
+	height: 35vh; */
 	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
 	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
 	background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
@@ -4263,6 +4265,13 @@ body.is-preload #banner:after {
 	color: inherit;
 }
 
+@media screen and (max-width: 767px) {
+	#main>header {
+		width: 100vw;
+		height: 35vh;
+	}
+	
+}
 @media screen and (max-width: 1680px) {
 
 	#main>header {
