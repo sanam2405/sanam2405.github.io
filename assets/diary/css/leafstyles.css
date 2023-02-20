@@ -1,0 +1,762 @@
+body {
+    overflow-x: hidden;
+}
+
+.parent {
+    display: flex;
+    font-size: 0;
+    line-height: 0;
+    height: 1px;
+}
+
+media
+
+#floating-image-container-1 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    animation: fadeIn 1s ease-in-out;
+    background-color: transparent;
+    opacity: 0.9;
+}
+
+
+#floating-image-1 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    opacity: 0.9;
+}
+
+
+
+#floating-image-container-2 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    animation: fadeIn 1s ease-in-out;
+    background-color: transparent;
+    opacity: 0.9;
+}
+
+
+
+#floating-image-2 {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+
+#floating-image-container-3 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    animation: fadeIn 1s ease-in-out;
+    background-color: transparent;
+    opacity: 0.9;
+}
+
+
+
+#floating-image-3 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    opacity: 0.9;
+}
+
+
+#floating-image-container-4 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    animation: fadeIn 1s ease-in-out;
+    background-color: transparent;
+    opacity: 0.9;
+}
+
+#floating-image-4 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    opacity: 0.9;
+}
+
+
+#floating-image-container-5 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    animation: fadeIn 1s ease-in-out;
+    background-color: transparent;
+    opacity: 0.9;
+}
+
+#floating-image-5 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    opacity: 0.9;
+}
+
+
+#floating-image-container-6 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    animation: fadeIn 1s ease-in-out;
+    background-color: transparent;
+    opacity: 0.9;
+}
+
+#floating-image-6 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    opacity: 0.9;
+}
+
+
+#floating-image-container-7 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    animation: fadeIn 1s ease-in-out;
+    background-color: transparent;
+    opacity: 0.9;
+}
+
+#floating-image-7 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    opacity: 0.9;
+}
+
+
+#floating-image-container-8 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    animation: fadeIn 1s ease-in-out;
+    background-color: transparent;
+    opacity: 0.9;
+}
+
+#floating-image-8 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    opacity: 0.9;
+}
+
+
+#floating-image-container-9 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    animation: fadeIn 1s ease-in-out;
+    background-color: transparent;
+    opacity: 0.9;
+}
+
+#floating-image-9 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    opacity: 0.9;
+}
+
+
+#floating-image-container-10 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    animation: fadeIn 1s ease-in-out;
+    background-color: transparent;
+    opacity: 0.9;
+}
+
+#floating-image-10 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    opacity: 0.9;
+}
+
+
+#floating-image-container-11 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    animation: fadeIn 1s ease-in-out;
+    background-color: transparent;
+    opacity: 0.9;
+}
+
+#floating-image-11 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    opacity: 0.9;
+}
+
+
+#floating-image-container-12 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    animation: fadeIn 1s ease-in-out;
+    background-color: transparent;
+    opacity: 0.9;
+}
+
+#floating-image-12 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    opacity: 0.9;
+}
+
+
+#floating-image-container-13 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    animation: fadeIn 1s ease-in-out;
+    background-color: transparent;
+    opacity: 0.9;
+}
+
+#floating-image-13 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    opacity: 0.9;
+}
+
+
+#floating-image-container-14 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    animation: fadeIn 1s ease-in-out;
+    background-color: transparent;
+    opacity: 0.9;
+}
+
+#floating-image-14 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    opacity: 0.9;
+}
+
+
+#floating-image-container-15 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    animation: fadeIn 1s ease-in-out;
+    background-color: transparent;
+    opacity: 0.9;
+}
+
+#floating-image-15 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    opacity: 0.9;
+}
+
+
+#floating-image-container-16 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    animation: fadeIn 1s ease-in-out;
+    background-color: transparent;
+    opacity: 0.9;
+}
+
+#floating-image-16 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    opacity: 0.9;
+}
+
+
+#floating-image-container-17 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    animation: fadeIn 1s ease-in-out;
+    background-color: transparent;
+    opacity: 0.9;
+}
+
+#floating-image-17 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    opacity: 0.9;
+}
+
+
+#floating-image-container-18 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    animation: fadeIn 1s ease-in-out;
+    background-color: transparent;
+    opacity: 0.9;
+}
+
+#floating-image-18 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    opacity: 0.9;
+}
+
+
+#floating-image-container-19 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    animation: fadeIn 1s ease-in-out;
+    background-color: transparent;
+    opacity: 0.9;
+}
+
+#floating-image-19 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    opacity: 0.9;
+}
+
+
+#floating-image-container-20 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    animation: fadeIn 1s ease-in-out;
+    background-color: transparent;
+    opacity: 0.9;
+}
+
+#floating-image-20 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    opacity: 0.9;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+@media screen and (max-width: 767px) {
+
+    #floating-image-1 {
+        width: 50px;
+        height: 50px;
+    }
+
+    #floating-image-2 {
+        width: 50px;
+        height: 50px;
+    }
+
+    #floating-image-3 {
+        width: 50px;
+        height: 50px;
+    }
+
+    #floating-image-4 {
+        width: 50px;
+        height: 50px;
+    }
+
+    #floating-image-5 {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #floating-image-6 {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #floating-image-7 {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #floating-image-8 {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #floating-image-9 {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #floating-image-10 {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #floating-image-11 {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #floating-image-12 {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #floating-image-13 {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #floating-image-14 {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #floating-image-15 {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #floating-image-16 {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #floating-image-17 {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #floating-image-18 {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #floating-image-19 {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #floating-image-20 {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #floating-image-21 {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #floating-image-22 {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #floating-image-23 {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #floating-image-24 {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #floating-image-25 {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #floating-image-26 {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #floating-image-27 {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #floating-image-28 {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #floating-image-29 {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #floating-image-30 {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #floating-image-31 {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #floating-image-32 {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #floating-image-33 {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #floating-image-34 {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #floating-image-35 {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #floating-image-36 {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #floating-image-37 {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media screen and (min-width: 767px) {
+
+    #floating-image-1 {
+        width: 100px;
+        height: 100px;
+    }
+
+    #floating-image-2 {
+        width: 100px;
+        height: 100px;
+    }
+
+    #floating-image-3 {
+        width: 100px;
+        height: 100px;
+    }
+
+    #floating-image-4 {
+        width: 100px;
+        height: 100px;
+    }
+
+    #floating-image-5 {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #floating-image-6 {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #floating-image-7 {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #floating-image-8 {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #floating-image-9 {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #floating-image-10 {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #floating-image-11 {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #floating-image-12 {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #floating-image-13 {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #floating-image-14 {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #floating-image-15 {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #floating-image-16 {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #floating-image-17 {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #floating-image-18 {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #floating-image-19 {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #floating-image-20 {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #floating-image-21 {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #floating-image-22 {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #floating-image-23 {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #floating-image-24 {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #floating-image-25 {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #floating-image-26 {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #floating-image-27 {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #floating-image-28 {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #floating-image-29 {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #floating-image-30 {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #floating-image-31 {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #floating-image-32 {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #floating-image-33 {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #floating-image-34 {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #floating-image-35 {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #floating-image-36 {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #floating-image-37 {
+        width: 100px;
+        height: 100px;
+    }
+}
