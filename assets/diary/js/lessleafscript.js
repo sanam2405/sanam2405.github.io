@@ -28,6 +28,16 @@ floatingImages.push({
 });
 
 
+
+// Wait for 2 seconds and show the image
+setTimeout(function() {
+  floatingImages[0].image.style.display = "block";
+  floatingImages[1].image.style.display = "block";
+  floatingImages[2].image.style.display = "block";
+}, 2000);
+
+
+
 function moveImages(currentTime) {
   floatingImages.forEach((image) => {
     const timeDelta = (currentTime - image.lastTime);
@@ -107,4 +117,7 @@ floatingImages.forEach((image) => {
   });
 });
 
-requestAnimationFrame(moveImages);
+// Wait for 2 seconds and show the image
+setTimeout(function() {
+  requestAnimationFrame(moveImages);
+}, 2000);
