@@ -1,0 +1,232 @@
+body {
+    overflow-x: hidden;
+}
+
+.parent {
+    display: flex;
+    font-size: 0;
+    line-height: 0;
+    height: 1px;
+}
+
+media
+
+#floating-image-container-1 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    animation: fadeIn 1s ease-in-out;
+    background-color: transparent;
+    opacity: 0.9;
+}
+
+
+#floating-image-1 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    opacity: 0.9;
+}
+
+
+
+#floating-image-container-2 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    animation: fadeIn 1s ease-in-out;
+    background-color: transparent;
+    opacity: 0.9;
+}
+
+
+
+#floating-image-2 {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+
+#floating-image-container-3 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    animation: fadeIn 1s ease-in-out;
+    background-color: transparent;
+    opacity: 0.9;
+}
+
+
+
+#floating-image-3 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    opacity: 0.9;
+}
+
+
+#floating-image-container-4 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    animation: fadeIn 1s ease-in-out;
+    background-color: transparent;
+    opacity: 0.9;
+}
+
+#floating-image-4 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    opacity: 0.9;
+}
+
+
+#floating-image-container-5 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    animation: fadeIn 1s ease-in-out;
+    background-color: transparent;
+    opacity: 0.9;
+}
+
+#floating-image-5 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    opacity: 0.9;
+}
+
+
+#floating-image-container-6 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    animation: fadeIn 1s ease-in-out;
+    background-color: transparent;
+    opacity: 0.9;
+}
+
+#floating-image-6 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    opacity: 0.9;
+}
+
+
+#floating-image-container-7 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    animation: fadeIn 1s ease-in-out;
+    background-color: transparent;
+    opacity: 0.9;
+}
+
+#floating-image-7 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    opacity: 0.9;
+}
+
+
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+@media screen and (max-width: 767px) {
+
+    #floating-image-1 {
+        width: 50px;
+        height: 50px;
+    }
+
+    #floating-image-2 {
+        width: 50px;
+        height: 50px;
+    }
+
+    #floating-image-3 {
+        width: 50px;
+        height: 50px;
+    }
+
+    #floating-image-4 {
+        width: 50px;
+        height: 50px;
+    }
+
+    #floating-image-5 {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #floating-image-6 {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #floating-image-7 {
+        width: 50px;
+        height: 50px;
+    }
+    
+    
+}
+
+@media screen and (min-width: 767px) {
+
+    #floating-image-1 {
+        width: 100px;
+        height: 100px;
+    }
+
+    #floating-image-2 {
+        width: 100px;
+        height: 100px;
+    }
+
+    #floating-image-3 {
+        width: 100px;
+        height: 100px;
+    }
+
+    #floating-image-4 {
+        width: 100px;
+        height: 100px;
+    }
+
+    #floating-image-5 {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #floating-image-6 {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #floating-image-7 {
+        width: 100px;
+        height: 100px;
+    }
+}
