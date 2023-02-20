@@ -599,7 +599,8 @@
                                         <textarea name="message" placeholder="Message"></textarea>
                                     </div>
                                     <div class="col-12">
-                                        <a href="#" class="form-button-submit button icon solid fa-envelope" id="contact-form-submit">Send
+                                        <a href="#" class="form-button-submit button icon solid fa-envelope"
+                                            id="contact-form-submit">Send
                                             Message</a>
                                     </div>
                                 </div>
@@ -671,41 +672,48 @@
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
     </script>
-  
+
     <script type="text/javascript">
-      (function () {
-        emailjs.init("mYWy34atwAFh1Zjxv");
-      })();
+        (function () {
+            emailjs.init("mYWy34atwAFh1Zjxv");
+        })();
     </script>
-  
-  
+
+
     <script>
-  
-      document.getElementById('contact-form-submit').addEventListener('click', function (event) {
-        event.preventDefault();
-        // get the user's input
-        var name = document.getElementsByName('user_name')[0].value;
-        var email = document.getElementsByName('user_email')[0].value;
-        var message = document.getElementsByName('message')[0].value;
-        // create the email object
-        var emailParams = {
-          from_name: name,
-          from_email: email,
-          message: message
-        };
-  
-        var service_id = 'service_k17vxc3';
-        var template_id = 'template_munudiary';
-        var user_id = 'mYWy34atwAFh1Zjxv';
-  
-        // send the email
-        emailjs.send(service_id, template_id, emailParams)
-          .then(function (response) {
-            alert('MESSAGE SENT SUCCESSFULLY!', response.status, response.text);
-          }, function (error) {
-            alert('FAILED TO SEND THE MESSAGE...', error);
-          });
-      });
+
+        document.getElementById('contact-form-submit').addEventListener('click', function (event) {
+            event.preventDefault();
+            // get the user's input
+            var name = document.getElementsByName('user_name')[0].value;
+            var email = document.getElementsByName('user_email')[0].value;
+            var message = document.getElementsByName('message')[0].value;
+            // create the email object
+            var emailParams = {
+                from_name: name,
+                from_email: email,
+                message: message
+            };
+
+            if (name === "") {
+                alert("Gotcha! No Proxies!");
+            } else if (email === "") {
+                alert("Gotcha! No Proxies!");
+            } else if (message === "") {
+                alert("Take a deep breadth and write your heart out.");
+            } else {
+
+                // send the email
+                emailjs.send(service_id, template_id, emailParams)
+                    .then(function (response) {
+                        alert('MESSAGE SENT SUCCESSFULLY!', response.status, response.text);
+                    }, function (error) {
+                        alert('FAILED TO SEND THE MESSAGE...', error);
+                    });
+
+            }
+        });
+
     </script>
 
 </body>
