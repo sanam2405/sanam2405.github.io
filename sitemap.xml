@@ -1,73 +1,82 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
-<loc>https://manaspratimbiswas.com/</loc>
-<lastmod>2023-02-20T16:31:24+00:00</lastmod>
-<priority>1.00</priority>
+  <loc>https://manaspratimbiswas.com/</loc>
+  <lastmod>2023-02-21T14:07:13+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-<loc>https://manaspratimbiswas.com/index.html</loc>
-<lastmod>2023-02-20T16:31:24+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://manaspratimbiswas.com/index</loc>
+  <lastmod>2023-02-21T14:07:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://manaspratimbiswas.com/muses.html</loc>
-<lastmod>2023-02-20T16:31:24+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://manaspratimbiswas.com/muses</loc>
+  <lastmod>2023-02-21T14:07:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://manaspratimbiswas.com/diary.html</loc>
-<lastmod>2023-02-20T16:31:24+00:00</lastmod>
-<priority>1.00</priority>
+  <loc>https://manaspratimbiswas.com/diary</loc>
+  <lastmod>2023-02-21T14:07:12+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-<loc>https://manaspratimbiswas.com/photography.html</loc>
-<lastmod>2023-02-20T16:31:24+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://manaspratimbiswas.com/photography</loc>
+  <lastmod>2023-02-21T14:07:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://manaspratimbiswas.com/games.html</loc>
-<lastmod>2023-02-20T16:31:24+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://manaspratimbiswas.com/games</loc>
+  <lastmod>2023-02-21T14:07:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://manaspratimbiswas.com/flip.html</loc>
-<lastmod>2023-02-20T16:31:24+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://manaspratimbiswas.com/flip</loc>
+  <lastmod>2023-02-21T14:07:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://manaspratimbiswas.com/tictactoe.html</loc>
-<lastmod>2023-02-20T16:31:24+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://manaspratimbiswas.com/tictactoe</loc>
+  <lastmod>2023-02-21T14:07:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://manaspratimbiswas.com/tictactoeai.html</loc>
-<lastmod>2023-02-20T16:31:24+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://manaspratimbiswas.com/tictactoeai</loc>
+  <lastmod>2023-02-21T14:07:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://manaspratimbiswas.com/poems.html</loc>
-<lastmod>2023-02-20T16:31:24+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://manaspratimbiswas.com/poems</loc>
+  <lastmod>2023-02-21T14:07:13+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://manaspratimbiswas.com/journals.html</loc>
-<lastmod>2023-02-20T16:31:24+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://manaspratimbiswas.com/journals</loc>
+  <lastmod>2023-02-21T14:07:13+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://manaspratimbiswas.com/technology.html</loc>
-<lastmod>2023-02-20T16:31:24+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://manaspratimbiswas.com/technology</loc>
+  <lastmod>2023-02-21T14:07:13+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://manaspratimbiswas.com/simon.html</loc>
-<lastmod>2023-02-20T16:31:24+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://manaspratimbiswas.com/simon</loc>
+  <lastmod>2023-02-21T14:07:13+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://manaspratimbiswas.com/boxit.html</loc>
-<lastmod>2023-02-20T16:31:24+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://manaspratimbiswas.com/boxit</loc>
+  <lastmod>2023-02-21T14:07:12+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
+
+
 </urlset>
