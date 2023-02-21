@@ -193,7 +193,7 @@ select {
 	font-weight: 300;
 	color: #000000;
 	line-height: 1.65em;
-	font-size: 15pt;
+	font-size: 20pt
 }
 
 h1,
@@ -224,7 +224,7 @@ h6 a {
 }
 
 h2 {
-	font-size: 1.65em;
+	font-size: 2em;
 	font-weight: 400;
 	letter-spacing: 4px;
 	margin: 0 0 1.5em 0;
@@ -232,7 +232,7 @@ h2 {
 }
 
 h3 {
-	font-size: 1em;
+	font-size: 1.65em;
 	letter-spacing: 2px;
 	margin: 0 0 1.25em 0;
 }
@@ -282,13 +282,13 @@ i {
 sub {
 	position: relative;
 	top: 0.5em;
-	font-size: 0.8em;
+	font-size: 1em;
 }
 
 sup {
 	position: relative;
 	top: -0.5em;
-	font-size: 0.8em;
+	font-size: 1em;
 }
 
 hr {
@@ -1753,7 +1753,7 @@ ul.icons>li:before {
 	left: 0;
 	top: 2.6em;
 	display: block;
-	font-size: 0.8em;
+	font-size: 1em;
 	background: #878787;
 	color: #e4e4e4;
 	width: 2em;
@@ -1866,7 +1866,7 @@ table thead {
 	text-transform: uppercase;
 	border: 0;
 	box-shadow: 0.125em 0.175em 0 0 rgba(0, 0, 0, 0.125);
-	font-size: 0.85em;
+	font-size: 1.15em;
 	letter-spacing: 2px;
 }
 
@@ -1895,11 +1895,11 @@ button,
 	border-radius: 4px;
 	border: 0;
 	outline: 0;
-	font-size: 1em;
+	font-size: 1.5em;
 	box-shadow: 0.125em 0.175em 0 0 rgba(0, 0, 0, 0.125);
 	font-weight: 600;
 	text-align: center;
-	font-size: 0.85em;
+	font-size: 1.15em;
 	letter-spacing: 2px;
 	padding: 0.85em 2.75em 0.85em 2.75em;
 }
@@ -1970,7 +1970,7 @@ button.alt:active,
 	border: 0;
 	box-shadow: 0.125em 0.175em 0 0 rgba(0, 0, 0, 0.125);
 	display: inline-block;
-	font-size: 0.85em;
+	font-size: 1.15em;
 	letter-spacing: 2px;
 	padding: 0.25em 1em 0.25em 1em;
 	margin: 0 0 2.5em 0;
@@ -2043,7 +2043,7 @@ button.alt:active,
 	font-weight: 700;
 	color: #ed786a;
 	text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
-	font-size: 3em;
+	font-size: 4em;
 	letter-spacing: 13px;
 }
 
@@ -2057,7 +2057,7 @@ button.alt:active,
 	font-weight: 400;
 	color: #424242;
 	margin: 2.5em 0 0 0;
-	font-size: 0.85em;
+	font-size: 2em;
 	letter-spacing: 3px;
 	text-align: center;
 }
@@ -2067,7 +2067,7 @@ button.alt:active,
 	font-weight: 400;
 	color: #424242;
 	margin: 2.5em 0 0 0;
-	font-size: 0.85em;
+	font-size: 1.15em;
 	letter-spacing: 3px;
 	text-align: justify;
 }
@@ -2106,7 +2106,7 @@ button.alt:active,
 	background: #878787;
 	color: #e4e4e4;
 	width: 2.25em;
-	font-size: 0.8em;
+	font-size: 1em;
 	height: 2.25em;
 	border-radius: 2.25em;
 	line-height: 2.1em;
@@ -2126,7 +2126,7 @@ button.alt:active,
 	-o-transition: color 0.25s ease-in-out;
 	-ms-transition: color 0.25s ease-in-out;
 	transition: color 0.25s ease-in-out;
-	font-size: 0.85em;
+	font-size: 1.15em;
 	letter-spacing: 3px;
 }
 
@@ -2254,7 +2254,7 @@ button.alt:active,
 
 #banner p {
 	font-weight: 400;
-	font-size: 2em;
+	font-size: 3em;
 	line-height: 1.5em;
 	letter-spacing: 4px;
 	text-align: center;
@@ -2388,7 +2388,7 @@ button.alt:active,
 	input,
 	textarea,
 	select {
-		font-size: 13pt;
+		font-size: 15pt;
 	}
 
 }
@@ -2403,7 +2403,7 @@ button.alt:active,
 	input,
 	textarea,
 	select {
-		font-size: 12pt;
+		font-size: 14pt;
 	}
 
 	h2 br,
@@ -2431,7 +2431,7 @@ button.alt:active,
 	}
 
 	#header h1 {
-		font-size: 2.5em;
+		font-size: 3.5em;
 	}
 
 	/* Nav */
@@ -2507,7 +2507,7 @@ button.alt:active,
 
 
 	#nav ul li {
-		font-size: 1em;
+		font-size: 1.5em;
 		display: inline-block;
 		/* margin: 0 10px; */
 		white-space: nowrap;
@@ -2588,7 +2588,7 @@ button.alt:active,
 						box-shadow: 0.125em 0.125em 0 0 rgba(0, 0, 0, 0.15);
 						text-align: center;
 						line-height: 40px;
-						font-size: 18px;
+						font-size: 20px;
 						color: #aaa;
 					}
 
@@ -2623,7 +2623,7 @@ button.alt:active,
 		text-transform: uppercase;
 		color: #888;
 		letter-spacing: 2px;
-		font-size: 0.85em;
+		font-size: 1.15em;
 	}
 
 	#navPanel .link {
@@ -2714,7 +2714,7 @@ button.alt:active,
 	input,
 	textarea,
 	select {
-		font-size: 11pt;
+		font-size: 13pt;
 	}
 
 	h2,
@@ -2722,7 +2722,7 @@ button.alt:active,
 	h4,
 	h5,
 	h6 {
-		font-size: 1.2em;
+		font-size: 1.5em;
 		letter-spacing: 2px;
 		text-align: center;
 		margin: 0 0 1em 0;
@@ -2787,7 +2787,7 @@ button.alt:active,
 	}
 
 	#header h1 {
-		font-size: 2em;
+		font-size: 3em;
 		letter-spacing: 8px;
 		line-height: 1.325em;
 	}
@@ -2798,7 +2798,7 @@ button.alt:active,
 	}
 
 	#nav ul li {
-		font-size: 0.5em;
+		font-size: 0.6em;
 		display: inline-block;
 		white-space: nowrap;
 	}
@@ -2823,7 +2823,7 @@ button.alt:active,
 	}
 
 	#banner p {
-		font-size: 1.25em;
+		font-size: 1.5em;
 	}
 
 	/* Features */
