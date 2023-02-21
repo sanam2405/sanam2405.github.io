@@ -299,6 +299,154 @@
                             </div>
                         </div>
 
+                        <h2 id="drdo">My DRDO Internship Experience</h2>
+
+                        <blockquote>
+                            "The work at DRDO is confidential however, I have tried to give a brief overview of the
+                            technology and work I have done there."
+                        </blockquote>
+
+                        <p> During my internship at <i><strong> DRDO </strong></i>, I had the opportunity to work on <i>
+                                web servers </i> and gain valuable
+                            knowledge about the technology. A <i> web server </i> is a program that processes network
+                            requests and
+                            serves users with files that create web pages, using <i> Hypertext Transfer Protocol </i> (HTTP). It
+                            stores <i> HTTP </i> files, including HTML documents, images, CSS stylesheets, and JavaScript files,
+                            which are delivered to clients upon request. </p>
+
+                        <p> On the hardware side, a <i> web server </i> is a computer that stores <i> web server
+                                software </i> and website
+                            component files. It connects to the Internet and supports physical data interchange with
+                            other
+                            devices connected to the web. On the software side, a <i> web server </i> includes several
+                            parts that
+                            control how web users access hosted files. At a minimum, it includes an <i> HTTP server</i>,
+                            which
+                            understands URLs and <i> HTTP </i>, and can be accessed through the domain names of the websites it
+                            stores, delivering the content of these hosted websites to the end user's device. </p>
+
+                        <p> Whenever a browser needs a file that is hosted on a <i> web server </i>, the browser
+                            requests the file
+                            via <i> HTTP </i>. The (software) <i> HTTP server</i> accepts the request, finds the
+                            requested document, and
+                            sends it back to the browser through <i> HTTP </i>. <i> Hypertext Transfer Protocol </i> (HTTP) is an
+                            application-layer protocol for transmitting hypermedia documents, such as HTML. It was
+                            designed
+                            for communication between web browsers and <i> web servers </i>, but it can also be used for
+                            other
+                            purposes. <i> HTTP </i> follows a classical client-server model, with a client opening a connection
+                            to
+                            make a request, then waiting until it receives a response. </p>
+
+                        <p> <i> HTTPS </i>, which is the secure version of <i> HTTP</i>, encrypts data to increase the security
+                            of data
+                            transfer. This is particularly important when users transmit sensitive data, such as when
+                            logging into a bank account, email service, or health insurance provider. </p>
+
+                        <p> During my training, I studied two <i> web servers </i> in particular: <i> Apache Web Server
+                                (XAMPP) </i> and <i> Nginx
+                                Web Server </i>. Both of them have their advantages and disadvantages.
+                            I worked on <i> XAMPP </i>, a free and open-source cross-platform <i> web server </i>
+                            solution stack
+                            package developed by <i> Apache Friends </i>, consisting mainly of the <i> Apache HTTP
+                                Server </i>, <i> MariaDB </i>
+                            database, and interpreters for scripts written in the <i> PHP </i> and <i> Perl programming
+                                languages </i>. </p>
+
+                        <p> For <i> Nginx </i>, the <i> web servers </i> was used directly without the need for any
+                            third-party addons or
+                            software. Both of the <i> web servers </i> were installed and mounted on my local system and
+                            tested to
+                            gain a better understanding of their functions and performance. </p>
+
+
+
+                        <p> Now I present a detailed workflow for parsing <i> Apache </i>and <i> Nginx </i>
+                            configuration files using <i> Python </i>.
+                            The aim of the process was to extract important information and fields from the
+                            configuration
+                            files. The workflow consisted of the following steps. </p>
+
+                        <p> Setting up the <i> web servers - </i>
+                            First, <i> XAMPP </i> was installed, and a <i> web server </i> was set up on my local
+                            machine. A sample dummy
+                            webpage was hosted to test the server's functionality. </p>
+
+                        <p> Studying the <i> Apache Configuration File - </i>
+
+                            To begin the parsing process, the file structure of the <i> Apache Web Server </i> was
+                            studied in depth.
+                            I focused on the structure and syntax of the Apache configuration file, which is the <i>
+                                httpd.conf </i>
+                            file. I observed the file in detail and noted its location in my machine, which is
+                            <i> /Applications/XAMPP/xamppfiles/etc </i>
+                        </p>
+
+                        <p> Parsing <i> Apache Configuration File </i> using <i> Python - </i>
+                            The information was extracted using a method called parsing using the <i> Python </i>
+                            programming
+                            language. I chose to use <i> Python </i> due to its rich availability of libraries. The
+                            parser that was
+                            used for parsing <i> httpd.conf </i>  is <i><a href="https://github.com/etingof/apacheconfig"
+                                    target="_blank">  apacheconfig </a></i>.
+                        </p>
+
+                        <p> I parsed several important fields such as the <i> version </i> of the <i> web server </i>,
+                            <i> listening ports</i>, <i> user
+                                and group </i>, <i> server name</i>, <i> error log directory</i>, <i> log levels</i>,
+                            <i> log format </i>, <i> custom log configuration </i>, other
+                          <i> alias webpath </i>, and <i> access control </i> of the httpd.conf file. This process allowed me to extract
+                            crucial information that provided me with insight into the setup and status of the web
+                            server. </p>
+
+                        <p> Studying the <i> Nginx Configuration File - </i>
+                            Next, I attempted to extract similar fields from the <i> Nginx Web Server</i>. To do this, I
+                            hosted a
+                            dummy website using <i> Nginx Web Server</i>. I studied the file structure of the <i> Nginx
+                                Web Server </i> and
+                            specifically the syntax of the Nginx configuration file, which is the nginx.conf file. I
+                            noted
+                            its location in my machine, which was <i> /opt/homebrew/etc/nginx/nginx.conf</i>
+                        </p>
+
+                        <p> Parsing <i> Nginx Configuration File </i>using <i> Python - </i>
+                            Similar techniques of Parsing using the <i> Python </i> programming language were used to
+                            extract fields
+                            such as the <i> conf file name</i>, <i> user</i>, <i> error logs</i>, <i> PID</i>, <i>
+                                worker connections</i>, <i> listening ports</i>, <i> server
+                                name</i>, <i> location</i>, <i> error page</i>, and <i> access control</i> of the <i>
+                                nginx.conf</i> file. The parser that was used
+                            for parsing <i> nginx.conf</i> is
+                            <i><a href="https://github.com/nginxinc/crossplane" target="blank"> crossplane</a></i>.
+                        </p>
+
+                        <p>
+                            <i><a href="https://github.com/sanam2405/WebServersConfParsing">Github Link</a></i> to all the source code.
+                        </p>
+
+
+                        <p> All of these important fields were printed in the terminal. However, a better modification
+                            of
+                            this could have been to write the parsed results in a file using File Handling in <i>
+                                Python</i>.
+                            In conclusion, parsing configuration files of <i> web servers </i> such as <i> Apache</i>
+                            and <i> Nginx </i> using <i> Python</i>
+                            can be a valuable tool for gathering important information about the web server's set-up and
+                            status. The workflow for parsing the configuration files includes setting up the web server,
+                            studying the configuration file, and parsing it using the <i> Python </i> programming
+                            language. By
+                            following this workflow, fields such as the version of the web server, listening ports, user
+                            and
+                            group, server name, error log directory, and more can be extracted. The parsers used for
+                            parsing
+                            the configuration files are <i> apacheconfig </i> and <i> crossplane </i>, and the parsed
+                            results can be printed
+                            in the terminal or written to a file using file handling in Python. Overall, this workflow
+                            provides a useful method for obtaining valuable information about <i> web servers </i> and
+                            their
+                            configurations. </p>
+                        <hr />
+
 
 
 
