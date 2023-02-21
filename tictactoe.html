@@ -1,115 +1,186 @@
 <!DOCTYPE html>
 
-<head>
+<html>
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-RLY2TY4HCX"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-RLY2TY4HCX"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
+      gtag("config", "G-RLY2TY4HCX");
+    </script>
+    <title>Manas' Tic-Tac-Toe</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <meta
+      name="description"
+      content="I am Manas Pratim Biswas, a third-year undergraduate student in the Department of Information Technology,
+		Jadavpur University."
+    />
+    <meta
+      name="keyword"
+      content="Manas Pratim Biswas, Munu, Information Technology, Jadavpur University, Portfolio"
+    />
+    <meta name="author" content="Manas Pratim Biswas" />
+    <meta name="robot" content="index, follow" />
 
-		gtag('config', 'G-RLY2TY4HCX');
-	</script>
-	<title> Manas' Tic-Tac-Toe</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<meta name="description" content="I am Manas Pratim Biswas, a third-year undergraduate student in the Department of Information Technology,
-		Jadavpur University.">
-	<meta name="keyword" content="Manas Pratim Biswas, Munu, Information Technology, Jadavpur University, Portfolio">
-	<meta name="author" content="Manas Pratim Biswas">
-	<meta name="robot" content="index, follow">
+    <!--  Essential META Tags -->
+    <meta property="og:title" content="Manas' Portfolio" />
+    <meta property="og:type" content="Manas Pratim Biswas" />
+    <meta
+      property="og:image"
+      content="https://www.manaspratimbiswas.com/images/banner.jpg"
+    />
+    <meta property="og:url" content="https://www.manaspratimbiswas.com/" />
+    <meta name="twitter:card" content="Manas Pratim Biswas" />
 
-	<!--  Essential META Tags -->
-	<meta property="og:title" content="Manas' Portfolio">
-	<meta property="og:type" content="Manas Pratim Biswas" />
-	<meta property="og:image" content="https://www.manaspratimbiswas.com/images/banner.jpg">
-	<meta property="og:url" content="https://www.manaspratimbiswas.com/">
-	<meta name="twitter:card" content="Manas Pratim Biswas">
+    <!--  Non-Essential, But Recommended -->
+    <meta property="og:description" content="Manas Pratim Biswas" />
+    <meta property="og:site_name" content="Manas Pratim Biswas" />
+    <meta name="twitter:image:alt" content="Manas Pratim Biswas" />
 
-	<!--  Non-Essential, But Recommended -->
-	<meta property="og:description" content="Manas Pratim Biswas">
-	<meta property="og:site_name" content="Manas Pratim Biswas">
-	<meta name="twitter:image:alt" content="Manas Pratim Biswas">
+    <!--  Non-Essential, But Required for Analytics -->
+    <meta property="fb:app_id" content="Manas Pratim Biswas" />
+    <meta name="twitter:site" content="Manas Pratim Biswas" />
+    <link
+      rel="stylesheet"
+      href="https://kit.fontawesome.com/ef8b6df795.css"
+      crossorigin="anonymous"
+    />
+    <link rel="canonical" href="https://www.manaspratimbiswas.com/" />
+    <link rel="stylesheet" href="assets/css/tictactoestyles.css" />
+    <link rel="icon" type="image/x-icon" href="images/favi.ico" />
+    <link
+      rel="stylesheet"
+      href="https://kit.fontawesome.com/ef8b6df795.css"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap"
+      rel="stylesheet"
+    />
+    <noscript>
+      <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+  </head>
 
-	<!--  Non-Essential, But Required for Analytics -->
-	<meta property="fb:app_id" content="Manas Pratim Biswas" />
-	<meta name="twitter:site" content="Manas Pratim Biswas">
-	<link rel="stylesheet" href="https://kit.fontawesome.com/ef8b6df795.css" crossorigin="anonymous">
-	<link rel="canonical" href="https://www.manaspratimbiswas.com/">
-	<link rel="stylesheet" href="assets/css/tictactoestyles.css">
-	<link rel="icon" type="image/x-icon" href="images/favi.ico">
-	<link rel="stylesheet" href="https://kit.fontawesome.com/ef8b6df795.css" crossorigin="anonymous">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap" rel="stylesheet">
-	<noscript>
-		<link rel="stylesheet" href="assets/css/noscript.css" />
-	</noscript>
-</head>
+  <body>
+    <div class="container">
+      <h1 id="playerText">Tic Tac Toe</h1>
 
-<body>
+      <br /><br />
 
-	<div class="container">
-		<h1 id="playerText">Tic Tac Toe</h1>
+      <button id="restartBtn">Restart</button>
 
-		<br><br>
+      <div id="gameboard">
+        <div class="box" id="0"></div>
+        <div class="box" id="1"></div>
+        <div class="box" id="2"></div>
+        <div class="box" id="3"></div>
+        <div class="box" id="4"></div>
+        <div class="box" id="5"></div>
+        <div class="box" id="6"></div>
+        <div class="box" id="7"></div>
+        <div class="box" id="8"></div>
+      </div>
 
-		<button id="restartBtn">Restart</button>
+      <br /><br />
 
-		
+      <button id="playMunu" onclick="window.location.href = '/tictactoeai' ">
+        Play Against Munu
+      </button>
 
-		<div id="gameboard">
-			<div class="box" id="0"></div>
-			<div class="box" id="1"></div>
-			<div class="box" id="2"></div>
-			<div class="box" id="3"></div>
-			<div class="box" id="4"></div>
-			<div class="box" id="5"></div>
-			<div class="box" id="6"></div>
-			<div class="box" id="7"></div>
-			<div class="box" id="8"></div>
-		</div>
+      <br /><br />
 
-		<br><br>
+      <h2>Made with Love by Munu</h2>
+    </div>
 
-		<button id="playMunu" onclick="window.location.href = '/tictactoeai' ">Play Against Munu</button>
+    <!-- Footer -->
+    <footer id="footer">
+      <h3>Connect With Me</h3>
+      <br /><br />
+      <ul class="icons">
+        <!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li> -->
+        <li id="wobbleIconOdd">
+          <a href="https://www.facebook.com/manaspratim.biswas/" target="_blank"
+            ><span>
+              <img
+                src="images/facebook.svg "
+                height="40px"
+                width="40px"
+                alt="Manas Pratim Biswas" /></span
+          ></a>
+        </li>
+        <li id="wobbleIconEven">
+          <a href="https://www.instagram.com/this.munu/" target="_blank"
+            ><span class="label"
+              ><img
+                src="images/instagram.svg "
+                height="40px"
+                width="40px"
+                alt="Manas Pratim Biswas" /></span
+          ></a>
+        </li>
+        <li id="wobbleIconOdd">
+          <a
+            href="https://github.com/sanam2405/"
+            target="_blank"
+            class="icon brands fa-github"
+            ><span class="label"
+              ><img
+                src="images/github.svg "
+                height="40px"
+                width="40px"
+                alt="Manas Pratim Biswas" /></span
+          ></a>
+        </li>
+        <li id="wobbleIconEven">
+          <a
+            href="https://www.linkedin.com/in/manas-pratim-biswas/"
+            target="_blank"
+            ><span class="label"
+              ><img
+                src="images/linkedin-in.svg "
+                height="40px"
+                width="40px"
+                alt="Manas Pratim Biswas" /></span
+          ></a>
+        </li>
+        <li id="wobbleIconOdd">
+          <a
+            href="mailto: manaspb2405@gmail.com"
+            target="_blank"
+            class="icon solid fa-envelope"
+            ><span class="label"
+              ><img
+                src="images/envelope-regular.svg "
+                height="40px"
+                width="40px"
+                alt="Manas Pratim Biswas" /></span
+          ></a>
+        </li>
+      </ul>
+      <br />
+      <ul class="copyright">
+        <li>&copy; 2023 All rights reserved</li>
+        <li>
+          Designed and Maintained by <a href="index">Manas Pratim Biswas</a>
+        </li>
+      </ul>
+    </footer>
 
-		<br><br>
-
-		<h2>Made with Love by Munu</h2>
-	</div>
-
-	<!-- Footer -->
-	<footer id="footer">
-		<h3>Connect With Me</h3>
-		<br><br>
-		<ul class="icons">
-			<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li> -->
-			<li id="wobbleIconOdd"><a href="https://www.facebook.com/manaspratim.biswas/" target="_blank"><span> <img
-							src="images/facebook.svg " height="40px" width="40px" alt="Manas Pratim Biswas"></span></a>
-			</li>
-			<li id="wobbleIconEven"><a href="https://www.instagram.com/this.munu/" target="_blank"><span
-						class="label"><img src="images/instagram.svg " height="40px" width="40px"
-							alt="Manas Pratim Biswas"></span></a></li>
-			<li id="wobbleIconOdd"><a href="https://github.com/sanam2405/" target="_blank"
-					class="icon brands fa-github"><span class="label"><img src="images/github.svg " height="40px"
-							width="40px" alt="Manas Pratim Biswas"></span></a></li>
-			<li id="wobbleIconEven"><a href="https://www.linkedin.com/in/manas-pratim-biswas/" target="_blank"><span
-						class="label"><img src="images/linkedin-in.svg " height="40px" width="40px"
-							alt="Manas Pratim Biswas"></span></a></li>
-			<li id="wobbleIconOdd"><a href="mailto: manaspb2405@gmail.com" target="_blank"
-					class="icon solid fa-envelope"><span class="label"><img src="images/envelope-regular.svg "
-							height="40px" width="40px" alt="Manas Pratim Biswas"></span></a></li>
-		</ul>
-		<br>
-		<ul class="copyright">
-			<li>&copy; 2023 All rights reserved </li>
-			<li>Designed and Maintained by <a href="index">Manas Pratim Biswas</a></li>
-		</ul>
-	</footer>
-
-	<script src="assets/js/tictactoescript.js"></script>
-</body>
-
+    <script src="assets/js/tictactoescript.js"></script>
+  </body>
 </html>
