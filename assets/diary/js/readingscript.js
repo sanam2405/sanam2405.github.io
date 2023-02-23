@@ -114,10 +114,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Check local storage for previous state of checkbox
   if (currentState === true) {
-    hideCheckbox.checked = true;
     addReadingColor();
   } else {
-    hideCheckbox.checked = false;
     removeReadingColor();
   }
 
@@ -144,6 +142,4 @@ wrapper.addEventListener("change", function (e) {
     console.log("checked\n");
     else
     console.log("unchecked\n");
-
-    currentState = false;
 });
