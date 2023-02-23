@@ -43,10 +43,13 @@ function addReadingColor() {
     "background-color 3s ease-in-out";
   document.querySelector("#footer").style.backgroundColor =
     "rgb(255, 255, 191)";
-  document.getElementById("canvas").style.transition =
-    "background-color 3s ease-in-out";
-  document.getElementById("canvas").style.backgroundColor =
-    "rgb(255, 255, 191)";
+
+  if (window.location.href.includes("diary.html")) {
+    document.getElementById("canvas").style.transition =
+      "background-color 3s ease-in-out";
+    document.getElementById("canvas").style.backgroundColor =
+      "rgb(255, 255, 191)";
+  }
 }
 
 function removeReadingColor() {
@@ -94,52 +97,47 @@ function removeReadingColor() {
     "background-color 3s ease-in-out";
   document.querySelector("#footer").style.backgroundColor =
     "rgb(255, 255, 255)";
-  document.getElementById("canvas").style.transition =
-    "background-color 3s ease-in-out";
-  document.getElementById("canvas").style.backgroundColor =
-    "rgb(255, 255, 255)";
+
+  if (window.location.href.includes("diary.html")) {
+    document.getElementById("canvas").style.transition =
+      "background-color 3s ease-in-out";
+    document.getElementById("canvas").style.backgroundColor =
+      "rgb(255, 255, 255)";
+  }
 }
 
 const wrapper = document.querySelector(".wrapper");
-
+const hideCheckbox = document.querySelector("#hide-checkbox");
+var currentState = localStorage.getItem("hideCheckboxState");
 
 document.addEventListener("DOMContentLoaded", function () {
- 
-  var currentState = localStorage.getItem("hideCheckboxState");
-  if(currentState === null) {
-    currentState = false;
-    localStorage.setItem("hideCheckboxState",currentState);
-    console.log("Initial Null\n");
+  
+  if (currentState === null) {
+    currentState = "false";
+    localStorage.setItem("hideCheckboxState", currentState);
   }
 
   // Check local storage for previous state of checkbox
-  if (currentState === true) {
+  if (currentState === "true") {
+    hideCheckbox.checked = true;
     addReadingColor();
   } else {
+    hideCheckbox.checked = false;
     removeReadingColor();
   }
-
-  if (currentState === true)
-  console.log("checked\n");
-  else
-  console.log("unchecked\n");
-
 });
 
 // Handle checkbox change event
 wrapper.addEventListener("change", function (e) {
+  if (e.target === hideCheckbox) {
     if (e.target.checked) {
       addReadingColor();
-      currentState = true;
+      currentState = "true";
       localStorage.setItem("hideCheckboxState", currentState); // Save state to local storage
     } else {
       removeReadingColor();
-      currentState = false;
+      currentState = "false";
       localStorage.setItem("hideCheckboxState", currentState); // Remove state from local storage
     }
-
-    if (currentState === true)
-    console.log("checked\n");
-    else
-    console.log("unchecked\n");
+  }
 });
