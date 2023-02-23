@@ -15,6 +15,8 @@ document.addEventListener("DOMContentLoaded", function () {
   if (currentSectionId !== null) {
     const targetSection = document.getElementById(currentSectionId);
     targetSection.scrollIntoView({ behavior: "smooth" }); // Handle the navigation yourself
+    currentSectionId = null;
+    sessionStorage.setItem("sectionId",null);
   }
 
 });
