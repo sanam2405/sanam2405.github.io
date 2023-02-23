@@ -113,6 +113,9 @@ document.addEventListener("DOMContentLoaded", function () {
     hideCheckbox.checked = false;
     removeReadingColor();
   }
+
+  console.log(localStorage.getItem("hideCheckboxState")+"\n");
+
 });
 
 // Handle checkbox change event
@@ -123,7 +126,9 @@ wrapper.addEventListener("change", function (e) {
       localStorage.setItem("hideCheckboxState", "checked"); // Save state to local storage
     } else {
       removeReadingColor();
-      localStorage.removeItem("hideCheckboxState"); // Remove state from local storage
+      localStorage.setItem("hideCheckboxState", "unchecked"); // Remove state from local storage
     }
+
+    console.log(localStorage.getItem("hideCheckboxState")+"\n");
   }
 });
