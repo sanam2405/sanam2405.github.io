@@ -108,13 +108,13 @@ function removeReadingColor() {
 
 const wrapper = document.querySelector(".wrapper");
 const hideCheckbox = document.querySelector("#hide-checkbox");
-var currentState = localStorage.getItem("hideCheckboxState");
+var currentState = sessionStorage.getItem("hideCheckboxState");
 
 document.addEventListener("DOMContentLoaded", function () {
-  
+
   if (currentState === null) {
     currentState = "false";
-    localStorage.setItem("hideCheckboxState", currentState);
+    sessionStorage.setItem("hideCheckboxState", currentState);
   }
 
   // Check local storage for previous state of checkbox
@@ -133,11 +133,11 @@ wrapper.addEventListener("change", function (e) {
     if (e.target.checked) {
       addReadingColor();
       currentState = "true";
-      localStorage.setItem("hideCheckboxState", currentState); // Save state to local storage
+      sessionStorage.setItem("hideCheckboxState", currentState); // Save state to local storage
     } else {
       removeReadingColor();
       currentState = "false";
-      localStorage.setItem("hideCheckboxState", currentState); // Remove state from local storage
+      sessionStorage.setItem("hideCheckboxState", currentState); // Remove state from local storage
     }
   }
 });
