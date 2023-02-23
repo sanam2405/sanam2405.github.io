@@ -11,7 +11,7 @@ anchors.forEach((anchor) => {
 
 
 document.addEventListener("DOMContentLoaded", function () { 
-  const currentSectionId = sessionStorage.getItem("sectionId");
+  var currentSectionId = sessionStorage.getItem("sectionId");
   if (currentSectionId !== null) {
     const targetSection = document.getElementById(currentSectionId);
     targetSection.scrollIntoView({ behavior: "smooth" }); // Handle the navigation yourself
