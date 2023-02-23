@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var currentSectionId = sessionStorage.getItem("sectionId");
   if (currentSectionId !== null) {
     const targetSection = document.getElementById(currentSectionId);
+    if (targetSection !== null)
     targetSection.scrollIntoView({ behavior: "smooth" }); // Handle the navigation yourself
     currentSectionId = null;
     sessionStorage.setItem("sectionId",null);
