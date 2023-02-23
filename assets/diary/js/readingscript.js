@@ -101,7 +101,6 @@ function removeReadingColor() {
 }
 
 const wrapper = document.querySelector(".wrapper");
-const hideCheckbox = document.querySelector("#hide-checkbox");
 
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -131,7 +130,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // Handle checkbox change event
 wrapper.addEventListener("change", function (e) {
-  if (e.target === hideCheckbox) {
     if (e.target.checked) {
       addReadingColor();
       currentState = true;
@@ -146,7 +144,6 @@ wrapper.addEventListener("change", function (e) {
     console.log("checked\n");
     else
     console.log("unchecked\n");
-  }
 
-  currentState = false;
+    currentState = false;
 });
