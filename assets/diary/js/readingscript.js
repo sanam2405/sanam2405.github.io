@@ -102,13 +102,15 @@ function removeReadingColor() {
 
 const wrapper = document.querySelector(".wrapper");
 const hideCheckbox = document.querySelector("#hide-checkbox");
-var currentState = localStorage.getItem("hideCheckboxState");
+
 
 document.addEventListener("DOMContentLoaded", function () {
-
+ 
+  var currentState = localStorage.getItem("hideCheckboxState");
   if(currentState === null) {
     currentState = false;
-    localStorage.setItem("hideCheckboxState",false);
+    localStorage.setItem("hideCheckboxState",currentState);
+    console.log("Initial Null\n");
   }
 
   // Check local storage for previous state of checkbox
