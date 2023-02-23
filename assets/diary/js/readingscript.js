@@ -44,7 +44,7 @@ function addReadingColor() {
   document.querySelector("#footer").style.backgroundColor =
     "rgb(255, 255, 191)";
 
-  if (window.location.href.includes("diary.html")) {
+  if (window.location.href.includes("diary")) {
     document.getElementById("canvas").style.transition =
       "background-color 3s ease-in-out";
     document.getElementById("canvas").style.backgroundColor =
@@ -98,7 +98,7 @@ function removeReadingColor() {
   document.querySelector("#footer").style.backgroundColor =
     "rgb(255, 255, 255)";
 
-  if (window.location.href.includes("diary.html")) {
+  if (window.location.href.includes("diary")) {
     document.getElementById("canvas").style.transition =
       "background-color 3s ease-in-out";
     document.getElementById("canvas").style.backgroundColor =
