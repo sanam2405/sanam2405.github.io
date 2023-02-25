@@ -447,6 +447,15 @@
   </script>
 
   <script>
+    // get the video container element
+    const videoContainer = document.querySelector('.cafeVideo');
+
+    // get the height of the browser controls
+    const browserControlsHeight = window.screen.availHeight - window.innerHeight;
+
+    // set the height of the video container to the available viewport height
+    videoContainer.style.height = `calc(100vh - ${browserControlsHeight}px)`;
+
     const cafeVideo = document.getElementById('myCafe');
     cafeVideo.play();
     cafeVideo.addEventListener('ended', () => {
