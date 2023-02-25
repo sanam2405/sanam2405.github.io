@@ -338,6 +338,7 @@ br.clear {
 	filter: contrast(250%);
 	transition: opacity 3s ease-in-out;
         height: 100vh;
+        pointer-events: none;
 }
 
 .cafeVideo.fade {
