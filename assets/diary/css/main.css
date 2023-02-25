@@ -339,6 +339,7 @@ br.clear {
 	transition: opacity 3s ease-in-out;
         height: 100vh;
         pointer-events: none;
+        touch-action: none;
 }
 
 .cafeVideo.fade {
