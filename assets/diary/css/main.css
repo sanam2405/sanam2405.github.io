@@ -342,7 +342,7 @@ br.clear {
 	opacity: 0;
 }
 
-@media (max-widht: 767px) {
+@media (max-width: 767px) {
 	.cafeVideo {
 		object-fit: cover;
 		width: 100%;
