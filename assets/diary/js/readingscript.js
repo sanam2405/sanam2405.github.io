@@ -10,9 +10,6 @@ function addReadingColor() {
     "background-color 3s ease-in-out";
   document.querySelector("#header").style.backgroundColor =
     "rgb(255, 255, 191)";
-  document.querySelector("#main").style.transition =
-    "background-color 3s ease-in-out";
-  document.querySelector("#main").style.backgroundColor = "rgb(255, 255, 191)";
   document.querySelector("form").style.transition =
     "background-color 3s ease-in-out";
   document.querySelector("form").style.backgroundColor = "rgb(255, 255, 191)";
@@ -43,13 +40,6 @@ function addReadingColor() {
     "background-color 3s ease-in-out";
   document.querySelector("#footer").style.backgroundColor =
     "rgb(255, 255, 191)";
-
-  if (window.location.href.includes("diary")) {
-    document.getElementById("canvas").style.transition =
-      "background-color 3s ease-in-out";
-    document.getElementById("canvas").style.backgroundColor =
-      "rgb(255, 255, 191)";
-  }
 }
 
 function removeReadingColor() {
@@ -64,9 +54,6 @@ function removeReadingColor() {
     "background-color 3s ease-in-out";
   document.querySelector("#header").style.backgroundColor =
     "rgb(255, 255, 255)";
-  document.querySelector("#main").style.transition =
-    "background-color 3s ease-in-out";
-  document.querySelector("#main").style.backgroundColor = "rgb(255, 255, 255)";
   document.querySelector("form").style.transition =
     "background-color 3s ease-in-out";
   document.querySelector("form").style.backgroundColor = "rgb(255, 255, 255)";
@@ -97,13 +84,6 @@ function removeReadingColor() {
     "background-color 3s ease-in-out";
   document.querySelector("#footer").style.backgroundColor =
     "rgb(255, 255, 255)";
-
-  if (window.location.href.includes("diary")) {
-    document.getElementById("canvas").style.transition =
-      "background-color 3s ease-in-out";
-    document.getElementById("canvas").style.backgroundColor =
-      "rgb(255, 255, 255)";
-  }
 }
 
 const wrapper = document.querySelector(".wrapper");
