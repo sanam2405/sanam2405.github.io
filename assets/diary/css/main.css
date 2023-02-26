@@ -329,7 +329,7 @@ br.clear {
 	width: auto;
 	height: auto;
 	transform: translateX(-50%) translateY(-50%);
-	opacity: 0.01;
+	opacity: 0.1;
 	z-index: 0;
 	object-fit: contain;
 	background-color: black;
