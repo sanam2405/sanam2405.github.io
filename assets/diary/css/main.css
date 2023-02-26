@@ -335,6 +335,8 @@ br.clear {
 	background-color: black;
 	filter: brightness(200%);
 	filter: contrast(250%);
+	filter: drop-shadow(200%);
+	filter: saturate(50%);
 	transition: opacity 3s ease-in-out;
 	z-index: 99999;
 	pointer-events: none;
