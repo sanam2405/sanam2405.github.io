@@ -106,7 +106,6 @@ section {
 
 body {
 	line-height: 1;
-        overflow: hidden;
 }
 
 ol,
@@ -330,23 +329,23 @@ br.clear {
 	width: auto;
 	height: auto;
 	transform: translateX(-50%) translateY(-50%);
-	opacity: 0.1;
-	z-index: 99999;
-	object-fit: cover;
+	opacity: 0.01;
+	z-index: 0;
+	object-fit: contain;
 	background-color: black;
 	filter: brightness(200%);
 	filter: contrast(250%);
 	transition: opacity 3s ease-in-out;
-        height: 100vh;
-        pointer-events: none;
-        touch-action: none;
+	z-index: 99999;
+	pointer-events: none;
+    touch-action: none;
 }
 
 .cafeVideo.fade {
 	opacity: 0;
 }
 
-@media (max-width: 767px) {
+@media (max-widht: 767px) {
 	.cafeVideo {
 		object-fit: cover;
 		width: 100%;
