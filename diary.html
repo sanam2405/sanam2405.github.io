@@ -58,7 +58,7 @@
     <section id="header">
       <div class="parent">
 
-        <video playsinline class="cafeVideo" id="myCafe">
+        <video autoplay loop playsinline class="cafeVideo" id="myCafe">
           <source src="video/cafe.mp4" type="video/mp4">
         </video>
 
@@ -445,28 +445,7 @@
         }
       });
   </script>
-
-  <script>
-    // get the video container element
-    const videoContainer = document.querySelector('.cafeVideo');
-
-    // get the height of the browser controls
-    const browserControlsHeight = window.screen.availHeight - window.innerHeight;
-
-    // set the height of the video container to the available viewport height
-    videoContainer.style.height = `calc(100vh - ${browserControlsHeight}px)`;
-
-    const cafeVideo = document.getElementById('myCafe');
-    cafeVideo.play();
-    cafeVideo.addEventListener('ended', () => {
-      cafeVideo.pause();
-      setTimeout(() => {
-        cafeVideo.currentTime = 0;
-        cafeVideo.classList.remove('fade');
-        cafeVideo.play();
-      }, 500);
-    }, false);
-  </script>
+  
 </body>
 
 </html>
