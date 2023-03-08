@@ -47,6 +47,7 @@
   <link rel="stylesheet" href="assets/diary/css/lessleafstyles.css" />
   <link rel="stylesheet" href="assets/diary/css/balloonstyles.css" />
   <link rel="stylesheet" href="assets/diary/css/readingstyles.css" />
+  <link rel="stylesheet" href="assets/diary/css/playbuttonstyles.css" />
   <link rel="icon" type="image/x-icon" href="images/favi.ico" />
   <link rel="canonical" href="https://www.manaspratimbiswas.com/diary" />
 </head>
@@ -58,9 +59,16 @@
     <section id="header">
       <div class="parent">
 
-        <video autoplay loop playsinline class="cafeVideo" id="myCafe">
+        <!-- <video autoplay loop playsinline class="cafeVideo" id="myCafe">
+          <source src="video/cafe.mp4" type="video/mp4">
+        </video> -->
+
+        
+        <video class="cafeVideo" id="myCafe">
           <source src="video/cafe.mp4" type="video/mp4">
         </video>
+
+       
 
         <div id="floating-image-container-1">
           <img src="images/leaf.png" alt="Manas Pratim Biswas" id="floating-image-1" />
@@ -248,19 +256,9 @@
 
             <tr>
               <td>
-                <a href="journals" data-section="barodol" class="icon  go-to-target-section">Barodol Mela: A Cultural
-                  Extravaganza of Krishnanagar</a>
+                <a href="journals" data-section="barodol" class="icon  go-to-target-section">Barodol Mela: A Cultural Extravaganza of Krishnanagar</a>
               </td>
             </tr>
-
-            <tr>
-              <td>
-                <a href="journals" data-section="village" class="icon  go-to-target-section">True India Resides In Its
-                  Villages</a>
-              </td>
-            </tr>
-
-
             <!-- <tr>
               <td>
                 <a href="journals" data-section="delhi" class="icon  go-to-target-section">Delhi'23 - An Embark to
@@ -311,19 +309,6 @@
                 <a href="technology" data-section="ansys" class="go-to-target-section">My Ansys Interview Experience</a>
               </td>
             </tr>
-            <tr>
-              <td>
-                <a href="technology" data-section="fifa" class="go-to-target-section">Experience the Realism of Football
-                  Like Never Before: The Technical Wizardry of FIFA 23's
-                  HyperMotion2</a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a href="technology" data-section="web3" class="go-to-target-section">Exploring the Technical Aspects of
-                  Web3 and Blockchain: A Deep Dive into the Technologies Behind Bitcoin and Ethereum</a>
-              </td>
-            </tr>
           </table>
         </div>
 
@@ -352,6 +337,21 @@
           <span class="star star-7"></span>
         </label>
       </div>
+
+      <div class="containerButton">
+        <div id="app">
+          <div class="pause">
+            <div class="line line_1"></div>
+            <div class="line line_2"></div>
+          </div>
+          <div class="play active">
+            <div class="line line_1"></div>
+            <div class="line line_2"></div>
+            <div class="line line_3"></div>
+          </div>
+        </div>
+      </div>
+
     </section>
 
 
@@ -440,6 +440,7 @@
   <script src="assets/diary/js/lessleafscript.js"></script>
   <script src="assets/diary/js/readingscript.js"></script>
   <script src="assets/diary/js/navigation.js"></script>
+  <script src="assets/diary/js/playbuttonscript.js"></script>
 
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
